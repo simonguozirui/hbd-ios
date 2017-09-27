@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E563E2EE1F7C24CB0089BB27 /* JJScrollTextLable.m in Sources */ = {isa = PBXBuildFile; fileRef = E563E2ED1F7C24CB0089BB27 /* JJScrollTextLable.m */; };
 		E5BD7B881F7BDB5A00064431 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5BD7B871F7BDB5A00064431 /* AppDelegate.swift */; };
 		E5BD7B8A1F7BDB5A00064431 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5BD7B891F7BDB5A00064431 /* ViewController.swift */; };
 		E5BD7B8D1F7BDB5A00064431 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5BD7B8B1F7BDB5A00064431 /* Main.storyboard */; };
@@ -14,6 +15,10 @@
 		E5BD7B921F7BDB5A00064431 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5BD7B901F7BDB5A00064431 /* LaunchScreen.storyboard */; };
 		E5BD7B9D1F7BDB5A00064431 /* HBDSaraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5BD7B9C1F7BDB5A00064431 /* HBDSaraTests.swift */; };
 		E5BD7BA81F7BDB5A00064431 /* HBDSaraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5BD7BA71F7BDB5A00064431 /* HBDSaraUITests.swift */; };
+		E5BD7BB61F7BDCEC00064431 /* song.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E5BD7BB51F7BDCEC00064431 /* song.mp3 */; };
+		E5BD7BBA1F7BDDB500064431 /* giftclosed.gif in Resources */ = {isa = PBXBuildFile; fileRef = E5BD7BB81F7BDDB500064431 /* giftclosed.gif */; };
+		E5BD7BBC1F7BDDD000064431 /* giftopen.gif in Resources */ = {isa = PBXBuildFile; fileRef = E5BD7BBB1F7BDDD000064431 /* giftopen.gif */; };
+		E5BD7BBE1F7BDEE600064431 /* UIImage+Gif.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5BD7BBD1F7BDEE600064431 /* UIImage+Gif.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E563E2EC1F7C24CB0089BB27 /* JJScrollTextLable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJScrollTextLable.h; sourceTree = "<group>"; };
+		E563E2ED1F7C24CB0089BB27 /* JJScrollTextLable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJScrollTextLable.m; sourceTree = "<group>"; };
+		E563E2EF1F7C24ED0089BB27 /* HBDSara-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HBDSara-Bridging-Header.h"; sourceTree = "<group>"; };
 		E5BD7B841F7BDB5A00064431 /* HBDSara.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HBDSara.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5BD7B871F7BDB5A00064431 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E5BD7B891F7BDB5A00064431 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +55,10 @@
 		E5BD7BA31F7BDB5A00064431 /* HBDSaraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HBDSaraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5BD7BA71F7BDB5A00064431 /* HBDSaraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HBDSaraUITests.swift; sourceTree = "<group>"; };
 		E5BD7BA91F7BDB5A00064431 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5BD7BB51F7BDCEC00064431 /* song.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = song.mp3; sourceTree = "<group>"; };
+		E5BD7BB81F7BDDB500064431 /* giftclosed.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = giftclosed.gif; sourceTree = "<group>"; };
+		E5BD7BBB1F7BDDD000064431 /* giftopen.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = giftopen.gif; sourceTree = "<group>"; };
+		E5BD7BBD1F7BDEE600064431 /* UIImage+Gif.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Gif.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +112,14 @@
 				E5BD7B871F7BDB5A00064431 /* AppDelegate.swift */,
 				E5BD7B891F7BDB5A00064431 /* ViewController.swift */,
 				E5BD7B8B1F7BDB5A00064431 /* Main.storyboard */,
+				E5BD7BBD1F7BDEE600064431 /* UIImage+Gif.swift */,
+				E563E2EC1F7C24CB0089BB27 /* JJScrollTextLable.h */,
+				E563E2EF1F7C24ED0089BB27 /* HBDSara-Bridging-Header.h */,
+				E563E2ED1F7C24CB0089BB27 /* JJScrollTextLable.m */,
+				E5BD7BBB1F7BDDD000064431 /* giftopen.gif */,
+				E5BD7BB51F7BDCEC00064431 /* song.mp3 */,
 				E5BD7B8E1F7BDB5A00064431 /* Assets.xcassets */,
+				E5BD7BB81F7BDDB500064431 /* giftclosed.gif */,
 				E5BD7B901F7BDB5A00064431 /* LaunchScreen.storyboard */,
 				E5BD7B931F7BDB5A00064431 /* Info.plist */,
 			);
@@ -193,6 +212,7 @@
 				TargetAttributes = {
 					E5BD7B831F7BDB5900064431 = {
 						CreatedOnToolsVersion = 8.2.1;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					E5BD7B971F7BDB5A00064431 = {
@@ -233,7 +253,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E5BD7B921F7BDB5A00064431 /* LaunchScreen.storyboard in Resources */,
+				E5BD7BB61F7BDCEC00064431 /* song.mp3 in Resources */,
+				E5BD7BBC1F7BDDD000064431 /* giftopen.gif in Resources */,
 				E5BD7B8F1F7BDB5A00064431 /* Assets.xcassets in Resources */,
+				E5BD7BBA1F7BDDB500064431 /* giftclosed.gif in Resources */,
 				E5BD7B8D1F7BDB5A00064431 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,7 +282,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5BD7BBE1F7BDEE600064431 /* UIImage+Gif.swift in Sources */,
 				E5BD7B8A1F7BDB5A00064431 /* ViewController.swift in Sources */,
+				E563E2EE1F7C24CB0089BB27 /* JJScrollTextLable.m in Sources */,
 				E5BD7B881F7BDB5A00064431 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,10 +437,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = HBDSara/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tech.simonguo.HBDSara;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HBDSara/HBDSara-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -424,10 +452,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = HBDSara/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tech.simonguo.HBDSara;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "HBDSara/HBDSara-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -505,6 +535,7 @@
 				E5BD7BAE1F7BDB5A00064431 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E5BD7BAF1F7BDB5A00064431 /* Build configuration list for PBXNativeTarget "HBDSaraTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +544,7 @@
 				E5BD7BB11F7BDB5A00064431 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E5BD7BB21F7BDB5A00064431 /* Build configuration list for PBXNativeTarget "HBDSaraUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +553,7 @@
 				E5BD7BB41F7BDB5A00064431 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,14 +1,18 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="HBDSara" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -16,11 +20,68 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CE5-KV-aWl">
+                                <rect key="frame" x="-13" y="212" width="400" height="300"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="400" id="9jO-ch-KaD"/>
+                                    <constraint firstAttribute="height" constant="300" id="UXI-Pz-16w"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="PlaySong:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Dyb-up-nZ9"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="F4I-Pr-7dm">
+                                <rect key="frame" x="67" y="109" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="300" id="eKA-3d-kHS"/>
+                                    <constraint firstAttribute="width" constant="400" id="fec-4W-LyE"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6CW-ba-zzK">
+                                <rect key="frame" x="77" y="445" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="400" id="Axs-YR-7Zq"/>
+                                    <constraint firstAttribute="height" constant="300" id="Yxk-xX-ESg"/>
+                                </constraints>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Happy Birthday" textAlignment="center" adjustsFontSizeToFit="NO" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="aaO-f9-4mU">
+                                <rect key="frame" x="120" y="287" width="121" height="30"/>
+                                <color key="textColor" red="0.15686274510000001" green="0.16862745100000001" blue="0.17254901959999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Sara!" textAlignment="center" adjustsFontSizeToFit="NO" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qgS-do-Kra">
+                                <rect key="frame" x="132" y="338" width="97" height="30"/>
+                                <color key="textColor" red="0.15686274510000001" green="0.16862745100000001" blue="0.17254901959999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6CW-ba-zzK" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="8sd-5t-B6v"/>
+                            <constraint firstItem="aaO-f9-4mU" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="GR2-3M-Mvl"/>
+                            <constraint firstItem="qgS-do-Kra" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="IvT-gh-Sw7"/>
+                            <constraint firstItem="CE5-KV-aWl" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="d9W-0T-La4"/>
+                            <constraint firstItem="CE5-KV-aWl" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="f3b-gX-cQE"/>
+                            <constraint firstItem="qgS-do-Kra" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="iqQ-p2-AHq"/>
+                            <constraint firstItem="F4I-Pr-7dm" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="q9L-qb-ole"/>
+                            <constraint firstItem="aaO-f9-4mU" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="rDl-Tx-W7I"/>
+                            <constraint firstItem="F4I-Pr-7dm" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="yOu-78-S0l"/>
+                            <constraint firstItem="6CW-ba-zzK" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="yxz-g2-7bA"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="BoxClosedGif" destination="F4I-Pr-7dm" id="Dvf-SM-ZnS"/>
+                        <outlet property="BoxOpenGif" destination="6CW-ba-zzK" id="iwQ-1M-tHR"/>
+                        <outlet property="HBDText" destination="aaO-f9-4mU" id="kUS-PU-t6M"/>
+                        <outlet property="SaraText" destination="qgS-do-Kra" id="RLY-Mc-fQL"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="138.98050974512745"/>
         </scene>
     </scenes>
 </document>
